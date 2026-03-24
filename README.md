@@ -55,8 +55,8 @@ poly_model.fit(X_train,y_train)
 y_pred_poly=poly_model.predict(X_test)
 
 
-print("Name: ROSHAN V ")
-print("Reg No: 212225240124 ")
+print("Name:  ")
+print("Reg No:  ")
 print("Linear Regression:")
 
 print(f"{'MSE'}: {mean_squared_error(y_test,y_pred_linear)}")
